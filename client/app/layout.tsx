@@ -35,6 +35,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
+        <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
+        <script
+          id="usercentrics-cmp"
+          src="https://web.cmp.usercentrics.eu/ui/loader.js"
+          data-settings-id="2xoCZXjqlKmXrM"
+          async
+        ></script>
       </head>
       <body className={inter.className}>
         <UserProvider>
