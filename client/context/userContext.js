@@ -72,6 +72,7 @@ export const UserContextProvider = ({ children }) => {
           withCredentials: true, // send cookies to the server
         }
       );
+      console.log(res);
 
       toast.success("User logged in successfully");
 
